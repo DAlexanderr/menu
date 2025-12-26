@@ -1,12 +1,22 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dîner de Noël</title>
+  <title>Christmas Dinner</title>
+
+  <!-- Christmas font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+
 
   <style>
-    /* Reset + mobile full screen */
+    /* Reset + full screen mobile */
     * {
       margin: 0;
       padding: 0;
@@ -33,8 +43,9 @@
 
     h1 {
       text-align: center;
-      font-size: 2rem;
-      letter-spacing: 0.1em;
+      font-family: "Allura", cursive;
+      font-size: 3.4rem;
+      letter-spacing: 0.15em;
       margin-bottom: 16px;
     }
 
@@ -43,14 +54,14 @@
     }
 
     .course h2 {
-      font-size: 1.2rem;
+      font-size: 1.4rem;
       text-transform: uppercase;
-      letter-spacing: 0.15em;
-      margin-bottom: 8px;
+      letter-spacing: 0.2em;
+      margin-bottom: 6px;
     }
 
     .course p {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       line-height: 1.5;
     }
 
@@ -70,8 +81,8 @@
     footer {
       margin-top: auto;
       text-align: center;
-      font-size: 0.9rem;
-      color: #666;
+      font-size: 1rem;
+      color: #555;
       padding-top: 16px;
     }
   </style>
@@ -79,47 +90,52 @@
 
 <body>
   <div class="menu">
-    <h1>Dîner de Noël</h1>
+    <h1>Christmas Dinner</h1>
 
     <div class="course">
-      <h2>Entrée</h2>
+      <h2>Starter</h2>
       <p>Quiche Lorraine</p>
     </div>
 
-    <div class="image-placeholder">Image de l’entrée</div>
+    <div class="image">
+        <img src="sep.png" alt="Side dish" style="max-width:100%; max-height:100%; object-fit:contain;" />
+    </div>
 
     <div class="course">
-      <h2>Prélude</h2>
+      <h2>Side Dish</h2>
       <p>
-        Tartare & betterave<br />
-        <small>(à assembler soi-même)</small>
+        Beef tartare with beetroot<br />
+        <small>(DIY assembly)</small>
       </p>
     </div>
 
-    <div class="image-placeholder">Image du prélude</div>
+    <div class="image">
+        <img src="sep.png" alt="Side dish" style="max-width:100%; max-height:100%; object-fit:contain;" />
+    </div>
 
     <div class="course">
-      <h2>Plat principal</h2>
+      <h2>Main Course</h2>
       <p>
-        Roulade de bœuf<br />
-        Haricots verts & carottes mijotées
+        Beef roulade<br />
+        Green beans and braised carrots
       </p>
     </div>
 
-    <div class="image-placeholder">Image du plat</div>
+    <div class="image">
+        <img src="sep.png" alt="Side dish" style="max-width:100%; max-height:100%; object-fit:contain;" />
+    </div>
 
     <div class="course">
       <h2>Dessert</h2>
       <p>
-        Vla à la framboise<br />
-        et pistache
+        Vanilla custard with raspberries<br />
+        and pistachio
       </p>
     </div>
 
     <footer>
-      Joyeux Noël 🎄
+      Merry Christmas 🎄
     </footer>
   </div>
 </body>
 </html>
-
